@@ -1,2 +1,7 @@
 you can find the checksum here:
 https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.8/latest/sha256sum.txt
+
+add this url to install ansible 
+
+
+yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(rpm -E %rhel).noarch.rpm
